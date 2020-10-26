@@ -103,8 +103,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.15;
-        left = width_landscape * 0.04;
+        top = height_landscape * 0.145;
+        left = width_landscape * 0.041;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "one" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -1396,10 +1396,19 @@ function pin_number(){
     
 }
 
-function main_obj(scren_width){
+function detectMob() {
+    return ( ( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) );
+}
+
+function main_obj(scren_width, screen_height){
     var main = document.getElementById('main');
     var main_landscape = document.getElementById('main-landscape');
-    if(scren_width > 1000){
+    var proportion = scren_width/screen_height;
+    if(screen_height <= 600 && scren_width <= 800){
+        main_landscape.style.display = "none";
+        main.style.display = "table";
+    }
+    else if(scren_width > 970 || (proportion >= 0.95 && proportion <= 1.05)){
         main_landscape.style.display = "table";
         main_landscape.style.paddingRight = "2vw";
         main.style.display = "none";
@@ -1408,13 +1417,16 @@ function main_obj(scren_width){
         main_landscape.style.display = "none";
         main.style.display = "table"; 
     }
+    
+    
 }
 
 
 $(document).ready(function () {
     $('map').imageMapResize();
     var screen_width = window.innerWidth;
-    main_obj(screen_width);
+    var screen_height = window.innerHeight;
+    main_obj(screen_width, screen_height);
     $('.area-popup').on('click', function (e) {
         e.preventDefault();
         var id_area;
@@ -1428,7 +1440,8 @@ $(document).ready(function () {
 
 $(window).load(function () {
     var screen_width = window.innerWidth;
-    main_obj(screen_width);
+    var screen_height = window.innerHeight;
+    main_obj(screen_width, screen_height);
     start();
     start_landscape();
     pulse_track();
@@ -1438,7 +1451,8 @@ $(window).load(function () {
 $(window).resize(function () {
     document.querySelectorAll('.area_title').forEach(e => e.remove());
     var screen_width = window.innerWidth;
-    main_obj(screen_width);
+    var screen_height = window.innerHeight;
+    main_obj(screen_width, screen_height);
     pin_number();
     start();
     start_landscape();
