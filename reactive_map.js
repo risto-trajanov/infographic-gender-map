@@ -91,10 +91,9 @@ function pulse_track(){
             break;
         }
     }
-    console.log(pulse);
     if(pulse == 0){
-        top = height * 0.135;
-        left = width * 0.16;
+        top = height * 0.145;
+        left = width * 0.056;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "one" + ')" class="pulse_holder area_title"><span  style="height:' + height * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -104,8 +103,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.275;
-        left = width_landscape * 0.063;
+        top = height_landscape * 0.15;
+        left = width_landscape * 0.04;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "one" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -116,8 +115,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 1){
-        top = height * 0.33;
-        left = width * 0.15;
+        top = height * 0.343;
+        left = width * 0.055;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "two" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -127,8 +126,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.475;
-        left = width_landscape * 0.156;
+        top = height_landscape * 0.35;
+        left = width_landscape * 0.125;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "two" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -139,8 +138,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 2){
-        var top = height * 0.4;
-        var left = width * 0.385;
+        var top = height * 0.42;
+        var left = width * 0.285;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "three" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -150,8 +149,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.592;
-        left = width_landscape * 0.295;
+        top = height_landscape * 0.598;
+        left = width_landscape * 0.228;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "three" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -162,8 +161,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 3){
-        var top = height * 0.47;
-        var left = width * 0.51;
+        var top = height * 0.483;
+        var left = width * 0.405;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "four" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -173,8 +172,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.19;
-        left = width_landscape * 0.383;
+        top = height_landscape * 0.199;
+        left = width_landscape * 0.3487;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "four" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -185,8 +184,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 4){
-        var top = height * 0.06;
-        var left = width * 0.58;
+        var top = height * 0.076;
+        var left = width * 0.48;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "five" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -196,8 +195,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.6;
-        left = width_landscape * 0.367;
+        top = height_landscape * 0.638;
+        left = width_landscape * 0.331;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "five" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -208,8 +207,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 5){
-        var top = height * 0.35;
-        var left = width * 0.72;
+        var top = height * 0.361;
+        var left = width * 0.62;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "six" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -219,8 +218,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.292;
-        left = width_landscape * 0.506;
+        top = height_landscape * 0.309;
+        left = width_landscape * 0.481;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "six" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -233,8 +232,8 @@ function pulse_track(){
         
     }
     if(pulse == 6){
-        var top = height * 0.06;
-        var left = width * 0.795;
+        var top = height * 0.075;
+        var left = width * 0.695;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "seven" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -244,8 +243,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.296;
-        left = width_landscape * 0.6;
+        top = height_landscape * 0.313;
+        left = width_landscape * 0.5822;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "seven" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -256,8 +255,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 7){
-        var top = height * 0.1;
-        var left = width * 0.96;
+        var top = height * 0.11;
+        var left = width * 0.857;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "eight" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -267,8 +266,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.162;
-        left = width_landscape * 0.69;
+        top = height_landscape * 0.167;
+        left = width_landscape * 0.682;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "eight" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -279,8 +278,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 8){
-        var top = height * 0.235;
-        var left = width * 1.08;
+        var top = height * 0.246;
+        var left = width * 0.98;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "nine" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -291,7 +290,7 @@ function pulse_track(){
         $div.appendTo('#span-helper');
         
         top = height_landscape * 0.12;
-        left = width_landscape * 0.84;
+        left = width_landscape * 0.8445;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "nine" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -302,8 +301,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 9){
-        var top = height * 0.45;
-        var left = width * 1.015;
+        var top = height * 0.465;
+        var left = width * 0.915;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "ten" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -313,8 +312,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.3;
-        left = width_landscape * 0.972;
+        top = height_landscape * 0.288;
+        left = width_landscape * 0.9825;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "ten" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -325,8 +324,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 10){
-        var top = height * 0.54;
-        var left = width * 0.95;
+        var top = height * 0.555;
+        var left = width * 0.85;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "eleven" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -336,8 +335,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.54;
-        left = width_landscape * 0.937;
+        top = height_landscape * 0.6;
+        left = width_landscape * 0.951;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "eleven" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -348,8 +347,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 11){
-        var top = height * 0.65;
-        var left = width * 0.99;
+        var top = height * 0.665;
+        var left = width * 0.888;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "twelve" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -359,8 +358,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.784;
-        left = width_landscape * 0.949;
+        top = height_landscape * 0.779;
+        left = width_landscape * 0.869;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "twelve" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -371,8 +370,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 12){
-        var top = height * 0.76;
-        var left = width * 0.808;
+        var top = height * 0.775;
+        var left = width * 0.705;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "thirteen" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -382,8 +381,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.88;
-        left = width_landscape * 0.806;
+        top = height_landscape * 0.866;
+        left = width_landscape * 0.713;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "thirteen" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -394,8 +393,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 13){
-        var top = height * 0.84;
-        var left = width * 0.673;
+        var top = height * 0.854;
+        var left = width * 0.572;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "fourteen" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -405,8 +404,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.867;
-        left = width_landscape * 0.687;
+        top = height_landscape * 0.9179;
+        left = width_landscape * 0.593;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "fourteen" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -417,8 +416,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 14){
-        var top = height * 0.91;
-        var left = width * 0.535;
+        var top = height * 0.925;
+        var left = width * 0.433;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "fifteen" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -428,8 +427,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.938;
-        left = width_landscape * 0.599;
+        top = height_landscape * 0.917;
+        left = width_landscape * 0.521;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "fifteen" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -440,8 +439,8 @@ function pulse_track(){
         $div.appendTo('#span-helper-landscape');
     }
     if(pulse == 15){
-        var top = height * 0.825;
-        var left = width * 0.23;
+        var top = height * 0.838;
+        var left = width * 0.129;
         var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "sixteen" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -451,8 +450,8 @@ function pulse_track(){
         });
         $div.appendTo('#span-helper');
         
-        top = height_landscape * 0.85;
-        left = width_landscape * 0.417;
+        top = height_landscape * 0.9;
+        left = width_landscape * 0.284;
         var $div = $('<div style="height:' + height_landscape * 0.1 + 'px" onClick="toggle_pulse(' + "sixteen" + ')" class="pulse_holder area_title"><span  style="height:' + height_landscape * 0.21 + 'px" class="pulse_marker"></span></div>')
 
         $div.css({
@@ -476,17 +475,17 @@ function start() {
         
         if (number == 'one-area') {
             top = height * 0.01;
-            left = width * 0.08;
-            var $span = $('<span style="font-size:' + height * 0.022 + 'px; color:' + blue + '" class="area_title">START THE JOURNEY HERE</span>');
+            left = width * 0.02;
+            var $span = $('<span style="font-size:' + height * 0.033 + 'px; color:' + blue + '" class="area_title">START THE JOURNEY HERE</span>');
             $span.css({
                 top: top + 'px',
                 left: left + 'px',
                 position: 'absolute'
             });
             $span.appendTo('#main');
-            top = height * 0.2;
-            left = width * 0.11;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.1;
+            left = width * 0.25;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -495,8 +494,8 @@ function start() {
             });
             $span.appendTo('#main');
             
-            top = height * 0.11;
-            left = width * 0.24;
+            top = height * 0.12;
+            left = width * 0.14;
             var $div = $('<div class="pin bounce area_title"></div>')
             
             $div.css({
@@ -509,9 +508,9 @@ function start() {
 
         }
         if (number == 'two-area') {
-            top = height * 0.385;
-            left = width * 0.098;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.396;
+            left = width * 0.02;
+            var $span = $('<span style="font-size:' + height * 0.017 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -522,9 +521,9 @@ function start() {
             
         }
         if (number == 'three-area') {
-            top = height * 0.465;
-            left = width * 0.357;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.475;
+            left = width * 0.23;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -535,8 +534,8 @@ function start() {
         }
         if (number == 'four-area') {
             top = height * 0.45;
-            left = width * 0.555;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            left = width * 0.47;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -546,9 +545,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'five-area') {
-            top = height * 0.035;
-            left = width * 0.63;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.11;
+            left = width * 0.51;
+            var $span = $('<span style="font-size:' + height * 0.019 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -558,9 +557,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'six-area') {
-            top = height * 0.33;
-            left = width * 0.77;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.34;
+            left = width * 0.67;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -570,9 +569,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'seven-area') {
-            top = height * 0.02;
-            left = width * 0.84;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.0;
+            left = width * 0.55;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -582,8 +581,8 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'eight-area') {
-            top = height * 0.07;
-            left = width * 1.02;
+            top = height * 0.0;
+            left = width * 0.75;
             var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -594,9 +593,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'nine-area') {
-            top = height * 0.21;
-            left = width * 1.13;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.03;
+            left = width * 0.93;
+            var $span = $('<span style="font-size:' + height * 0.017 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -607,7 +606,7 @@ function start() {
         }
         if (number == 'ten-area') {
             top = height * 0.44;
-            left = width * 1.065;
+            left = width * 0.96;
             var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -618,8 +617,8 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'eleven-area') {
-            top = height * 0.52;
-            left = width * 0.999;
+            top = height * 0.53;
+            left = width * 0.895;
             var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -630,9 +629,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'twelve-area') {
-            top = height * 0.635;
-            left = width * 1.04;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.72;
+            left = width * 0.87;
+            var $span = $('<span style="font-size:' + height * 0.018 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -642,9 +641,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'thirteen-area') {
-            top = height * 0.74;
-            left = width * 0.855;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.83;
+            left = width * 0.68;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -654,9 +653,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'fourteen-area') {
-            top = height * 0.83;
-            left = width * 0.72;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.77;
+            left = width * 0.53;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -666,9 +665,9 @@ function start() {
             $span.appendTo('#main');
         }
         if (number == 'fifteen-area') {
-            top = height * 0.9;
-            left = width * 0.583;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.91;
+            left = width * 0.48;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -679,17 +678,17 @@ function start() {
         }
         if (number == 'sixteen-area') {
             top = height * 0.68;
-            left = width * 0.185;
-            var $span = $('<span style="font-size:' + height * 0.029 + 'px; color:' + red + '" class="area_title">FINISH LINE</span>');
+            left = width * 0.075;
+            var $span = $('<span style="font-size:' + height * 0.033 + 'px; color:' + red + '" class="area_title">FINISH LINE</span>');
             $span.css({
                 top: top + 'px',
                 left: left + 'px',
                 position: 'absolute'
             });
             $span.appendTo('#main');
-            top = height * 0.9;
-            left = width * 0.18;
-            var $span = $('<span style="font-size:' + height * 0.0175 + 'px;" class="area_title">' + title + '</span>');
+            top = height * 0.91;
+            left = width * 0.08;
+            var $span = $('<span style="font-size:' + height * 0.02 + 'px;" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -703,7 +702,7 @@ function start() {
     var pulse = 0;
     if(pulse == 15){
         var top = height * 0.825;
-        var left = width * 0.385;
+        var left = width * 0.28;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -713,7 +712,7 @@ function start() {
         });
         $div.appendTo('#span-helper');
     }
-    
+   
 }
 
 function start_landscape(){
@@ -729,18 +728,18 @@ function start_landscape(){
         var height = $(img).height();
         var width = $(img).width();
         if (number == 'one-area-landscape') {
-            top = height * 0.16;
+            top = 0;
             left = width * 0.02;
-            var $span = $('<span style="font-size:' + height * 0.028 + 'px; color:' + blue + '" class="area_title">START THE JOURNEY HERE</span>');
+            var $span = $('<span style="font-size:' + height * 0.04 + 'px; color:' + blue + '" class="area_title">START THE JOURNEY HERE</span>');
             $span.css({
                 top: top + 'px',
                 left: left + 'px',
                 position: 'absolute'
             });
             $span.appendTo('#main-landscape');
-            top = height * 0.338;
-            left = width * 0.041;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.1;
+            left = width * 0.195;
+            var $span = $('<span style="font-size:' + height * 0.028 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -749,20 +748,9 @@ function start_landscape(){
             });
             $span.appendTo('#main-landscape');
             
-            top = height * 0.23;
-            left = width * 0.105;
+            top = height * 0.12;
+            left = width * 0.09;
             var $div = $('<div class="pin bounce area_title"></div>')
-            
-            $div.css({
-                top: top + 'px',
-                left: left + 'px',
-                position: 'absolute'
-            });
-            $div.appendTo('#span-helper-landscape');
-            
-            top = height * 0.278;
-            left = width * 0.0638;
-            var $div = $('<div style="height:' + height * 0.1 + 'px" onClick="toggle_pulse(' + "one" + ')" class="pulse_holder area_title"><span  style="height:' + height * 1 + 'px" class="pulse_marker"></span></div>')
             
             $div.css({
                 top: top + 'px',
@@ -773,9 +761,9 @@ function start_landscape(){
 
         }
         if (number == 'two-area-landscape') {
-            top = height * 0.52;
-            left = width * 0.12;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.37;
+            left = width * 0.03;
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -786,9 +774,9 @@ function start_landscape(){
             
         }
         if (number == 'three-area-landscape') {
-            top = height * 0.645;
-            left = width * 0.266;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.53;
+            left = width * 0.126;
+            var $span = $('<span style="font-size:' + height * 0.026 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -798,9 +786,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'four-area-landscape') {
-            top = height * 0.165;
-            left = width * 0.409;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.05;
+            left = width * 0.336;
+            var $span = $('<span style="font-size:' + height * 0.027 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -811,8 +799,8 @@ function start_landscape(){
         }
         if (number == 'five-area-landscape') {
             top = height * 0.65;
-            left = width * 0.35;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            left = width * 0.25;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -822,9 +810,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'six-area-landscape') {
-            top = height * 0.28;
-            left = width * 0.53;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.168;
+            left = width * 0.45;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -834,9 +822,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'seven-area-landscape') {
-            top = height * 0.217;
-            left = width * 0.59;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.21;
+            left = width * 0.57;
+            var $span = $('<span style="font-size:' + height * 0.026 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -846,9 +834,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'eight-area-landscape') {
-            top = height * 0.1;
-            left = width * 0.723;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.02;
+            left = width * 0.605;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -858,9 +846,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'nine-area-landscape') {
-            top = height * 0.1;
-            left = width * 0.863;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0;
+            left = width * 0.745;
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -870,9 +858,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'ten-area-landscape') {
-            top = height * 0.27;
-            left = width * 0.996;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.21;
+            left = width * 0.87;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -882,9 +870,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'eleven-area-landscape') {
-            top = height * 0.515;
-            left = width * 0.961;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.625;
+            left = width * 0.895;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -894,9 +882,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'twelve-area-landscape') {
-            top = height * 0.76;
-            left = width * 0.975;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.83;
+            left = width * 0.86;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -906,9 +894,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'thirteen-area-landscape') {
-            top = height * 0.93;
-            left = width * 0.78;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.92;
+            left = width * 0.68;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -918,9 +906,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'fourteen-area-landscape') {
-            top = height * 0.92;
-            left = width * 0.678;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.97;
+            left = width * 0.578;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -930,9 +918,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'fifteen-area-landscape') {
-            top = height * 0.929;
-            left = width * 0.525;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0.92;
+            left = width * 0.445;
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -942,18 +930,18 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'sixteen-area-landscape') {
-            top = height * 0.76;
-            left = width * 0.345;
-            var $span = $('<span style="font-size:' + height * 0.029 + 'px; color:' + red + '" class="area_title">FINISH LINE</span>');
+            top = height * 0.79;
+            left = width * 0.182;
+            var $span = $('<span style="font-size:' + height * 0.044 + 'px; color:' + red + '" class="area_title">FINISH LINE</span>');
             $span.css({
                 top: top + 'px',
                 left: left + 'px',
                 position: 'absolute'
             });
             $span.appendTo('#main-landscape');
-            top = height * 0.915;
-            left = width * 0.39;
-            var $span = $('<span style="font-size:' + height * 0.02 + 'px;" class="area_title">' + title + '</span>');
+            top = height * 0.925;
+            left = width * 0.165;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px;" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -963,6 +951,45 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
     });
+    var img = document.getElementById('ying_yang');
+    var height = $(img).height();
+    var width = $(img).width();
+
+    top_c = height * 0.4;
+    left = width * 0.1;
+    
+    var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Gender policies<br> are Climate Resilient</span>');
+    
+    $span.css({
+        top: top_c + 'px',
+        right: left + 'px',
+        position: 'absolute'
+    });
+    $span.appendTo('#ying_yang_div');
+    
+    top_c = height * 0.2;
+    left = width * 0.1;
+    
+    var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Climate Policies<br> are Gender<br> Responsive </span>');
+    
+    $span.css({
+        top: top_c + 'px',
+        left: left + 'px',
+        position: 'absolute'
+    });
+    $span.appendTo('#ying_yang_div');
+    
+    top_c = height * 1;
+    left = width * 0.4;
+    
+    var $span = $('<span style="font-size:' + width * 0.03 + 'px; color:black;" class="area_title">The Macedonian enhanced<br> Nationally Determined Contributions<br> addresses gender dimensions </span>');
+    
+    $span.css({
+        top: top_c + 'px',
+        left: left + 'px',
+        position: 'absolute'
+    });
+    $span.appendTo('#ying_yang_div');
 
 }
 
@@ -977,8 +1004,8 @@ function pin_number(){
     var height = $(img).height();
     var width = $(img).width();
     if(numbers_track[0] == 1){
-        var top = height * 0.11;
-        var left = width * 0.24;
+        top = height * 0.12;
+        left = width * 0.14;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -990,7 +1017,7 @@ function pin_number(){
     }
     if(numbers_track[1] == 1){
         var top = height * 0.32;
-        var left = width * 0.22;
+        var left = width * 0.13;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1001,8 +1028,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[2] == 1){
-        var top = height * 0.35;
-        var left = width * 0.4;
+        var top = height * 0.45;
+        var left = width * 0.35;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1014,7 +1041,7 @@ function pin_number(){
     }
     if(numbers_track[3] == 1){
         var top = height * 0.42;
-        var left = width * 0.6;
+        var left = width * 0.5;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1025,8 +1052,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[4] == 1){
-        var top = height * 0;
-        var left = width * 0.6;
+        var top = height * 0.025;
+        var left = width * 0.491;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1037,8 +1064,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[5] == 1){
-        var top = height * 0.17;
-        var left = width * 0.685;
+        var top = height * 0.32;
+        var left = width * 0.74;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1049,8 +1076,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[6] == 1){
-        var top = height * 0.0;
-        var left = width * 0.82;
+        var top = height * 0.01;
+        var left = width * 0.72;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1061,8 +1088,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[7] == 1){
-        var top = height * 0.17;
-        var left = width * 0.92;
+        var top = height * 0.18;
+        var left = width * 0.82;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1073,8 +1100,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[8] == 1){
-        var top = height * 0.18;
-        var left = width * 1.15;
+        var top = height * 0.28;
+        var left = width * 0.94;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1085,8 +1112,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[9] == 1){
-        var top = height * 0.39;
-        var left = width * 0.85;
+        var top = height * 0.42;
+        var left = width * 0.9;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1098,7 +1125,7 @@ function pin_number(){
     }
     if(numbers_track[10] == 1){
         var top = height * 0.53;
-        var left = width * 0.9;
+        var left = width * 0.8;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1109,7 +1136,7 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[11] == 1){
-        var top = height * 0.63;
+        var top = height * 0.69;
         var left = width * 0.9529;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
@@ -1121,8 +1148,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[12] == 1){
-        var top = height * 0.71;
-        var left = width * 0.8154;
+        var top = height * 0.8;
+        var left = width * 0.79;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1133,8 +1160,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[13] == 1){
-        var top = height * 0.79;
-        var left = width * 0.685;
+        var top = height * 0.59;
+        var left = width * 0.522;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1145,8 +1172,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[14] == 1){
-        var top = height * 0.81;
-        var left = width * 0.522;
+        var top = height * 0.71;
+        var left = width * 0.422;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1157,8 +1184,8 @@ function pin_number(){
         $div.appendTo('#span-helper');
     }
     if(numbers_track[15] == 1){
-        var top = height * 0.825;
-        var left = width * 0.385;
+        var top = height * 0.8;
+        var left = width * 0.2;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1175,8 +1202,8 @@ function pin_number(){
     var height = $(img).height();
     var width = $(img).width();
     if(numbers_track[0] == 1){
-        var top = height * 0.23;
-        var left = width * 0.105;
+        top = height * 0.12;
+        left = width * 0.09;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1187,8 +1214,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[1] == 1){
-        var top = height * 0.47;
-        var left = width * 0.13;
+        var top = height * 0.33;
+        var left = width * 0.1;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1199,8 +1226,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[2] == 1){
-        var top = height * 0.54;
-        var left = width * 0.3;
+        var top = height * 0.5;
+        var left = width * 0.2;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1211,7 +1238,7 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[3] == 1){
-        var top = height * 0.13;
+        var top = height * 0.25;
         var left = width * 0.389;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
@@ -1223,8 +1250,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[4] == 1){
-        var top = height * 0.53;
-        var left = width * 0.38;
+        var top = height * 0.58;
+        var left = width * 0.34;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1235,8 +1262,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[5] == 1){
-        var top = height * 0.228;
-        var left = width * 0.5058;
+        var top = height * 0.38;
+        var left = width * 0.52;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({
@@ -1247,8 +1274,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[6] == 1){
-        var top = height * 0.19;
-        var left = width * 0.604;
+        var top = height * 0.34;
+        var left = width * 0.63;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1259,79 +1286,7 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[7] == 1){
-        var top = height * 0.08;
-        var left = width * 0.69;
-        var $div = $('<div class="pin bounce area_title red_background"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[8] == 1){
-        var top = height * 0.07;
-        var left = width * 0.87;
-        var $div = $('<div class="pin bounce area_title"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[9] == 1){
-        var top = height * 0.265;
-        var left = width * 0.945;
-        var $div = $('<div class="pin bounce area_title red_background"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[10] == 1){
-        var top = height * 0.51;
-        var left = width * 0.91;
-        var $div = $('<div class="pin bounce area_title"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[11] == 1){
-        var top = height * 0.74;
-        var left = width * 0.93;
-        var $div = $('<div class="pin bounce area_title red_background"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[12] == 1){
-        var top = height * 0.81;
-        var left = width * 0.81;
-        var $div = $('<div class="pin bounce area_title"></div>')
-
-        $div.css({
-            top: top + 'px',
-            left: left + 'px',
-            position: 'absolute'
-        });
-        $div.appendTo('#span-helper-landscape');
-    }
-    if(numbers_track[13] == 1){
-        var top = height * 0.84;
+        var top = height * 0.215;
         var left = width * 0.72;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
@@ -1342,9 +1297,81 @@ function pin_number(){
         });
         $div.appendTo('#span-helper-landscape');
     }
-    if(numbers_track[14] == 1){
+    if(numbers_track[8] == 1){
+        var top = height * 0.13;
+        var left = width * 0.82;
+        var $div = $('<div class="pin bounce area_title"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[9] == 1){
+        var top = height * 0.18;
+        var left = width * 0.99;
+        var $div = $('<div class="pin bounce area_title red_background"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[10] == 1){
+        var top = height * 0.58;
+        var left = width * 0.92;
+        var $div = $('<div class="pin bounce area_title"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[11] == 1){
+        var top = height * 0.64;
+        var left = width * 0.79;
+        var $div = $('<div class="pin bounce area_title red_background"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[12] == 1){
         var top = height * 0.88;
-        var left = width * 0.605;
+        var left = width * 0.69;
+        var $div = $('<div class="pin bounce area_title"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[13] == 1){
+        var top = height * 0.65;
+        var left = width * 0.6;
+        var $div = $('<div class="pin bounce area_title red_background"></div>')
+
+        $div.css({
+            top: top + 'px',
+            left: left + 'px',
+            position: 'absolute'
+        });
+        $div.appendTo('#span-helper-landscape');
+    }
+    if(numbers_track[14] == 1){
+        var top = height * 0.67;
+        var left = width * 0.5;
         var $div = $('<div class="pin bounce area_title"></div>')
 
         $div.css({
@@ -1355,8 +1382,8 @@ function pin_number(){
         $div.appendTo('#span-helper-landscape');
     }
     if(numbers_track[15] == 1){
-        var top = height * 0.82;
-        var left = width * 0.45;
+        var top = height * 0.87;
+        var left = width * 0.335;
         var $div = $('<div class="pin bounce area_title red_background"></div>')
 
         $div.css({

@@ -85,6 +85,8 @@ body, html {
     margin:0 auto;   
     text-align:center;
     margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #main-landscape{
@@ -109,22 +111,29 @@ body, html {
 }
 
 #img-main {
-    min-width:96vw;
-    max-width: 98vw;
+    min-width:89vw;
+    max-width: 95vw;
     min-height: 50vh;
-    max-height: 75vh;
+    max-height: 82vh;
     vertical-align: middle;
+    padding-bottom: 2vh;
+    margin-top: 3vh;
+    padding-right: 3vw;
+    padding-left: 2vw;
 }
 
 #img-main-landscape{
     min-width:96vw;
-    max-width: 98vw;
+    max-width: 96vw;
     min-height: 50vh;
     max-height: 75vh;
     vertical-align: middle;
     margin: 0;
-    padding-right: 2vw;
+    padding-right: 5vw;
     margin-bottom: auto;
+    margin-left: 1.5vw;
+    padding-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 p, h2, li,a, button {
@@ -283,12 +292,7 @@ ul{
     opacity: 0.2;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    font-size: 0.9vw;
-}
+
 
 .link {
     text-decoration: none;
@@ -385,6 +389,37 @@ ul{
 #one img{
     float: none;
     margin: auto;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 0.9vw;
+}
+
+#sixteen{
+    display: flex;
+    flex-direction: column;
+}
+
+#ying_yang_div{
+    display:table;
+    text-align:center;
+    margin-bottom: auto;
+    position: relative;
+}
+
+#sixteen img{
+    max-width: 50vw;
+    max-height: 43vh;
+    display: block;
+    float: none;
+    margin: auto;
+}
+
+#sixteen h2{
+    font-size: 2.5vh
 }
 
 
