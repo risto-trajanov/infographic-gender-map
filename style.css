@@ -18,7 +18,7 @@ body, html {
     justify-content: center;
 }
 
-#footer-text {
+.footer-text {
     display: block;
     position: absolute;
     top: 50%;
@@ -31,6 +31,10 @@ body, html {
     z-index: 60;
     margin: auto;
     float: right;
+}
+
+#footer-text-mk{
+  font-size: 0.8vw;  
 }
 
 #logo-left {
@@ -71,7 +75,7 @@ body, html {
     
 }
 
-#info {
+.info{
     min-height: 8vh;
     justify-content: center;
     overflow: visible;
@@ -127,7 +131,7 @@ body, html {
     min-width:96vw;
     max-width: 96vw;
     min-height: 50vh;
-    max-height: 75vh;
+    max-height: 80vh;
     vertical-align: middle;
     margin: 0;
     padding-right: 5vw;
@@ -135,9 +139,10 @@ body, html {
     margin-left: 1.5vw;
     padding-bottom: 2vh;
     margin-top: 2vh;
+    z-index: 5;
 }
 
-p, h2, li,a, button {
+p, h2, li,a, button, pre {
     font-size: 1.5em;
     font-family: 'Oswald', sans-serif;
 }
@@ -156,6 +161,10 @@ p, h2, li,a, button {
     width: 65vw;
 }
 
+#info-mk .bold{
+    font-size: 2.3vw;
+    width: 55vw;
+}
 
 .normal{ 
     font-family: 'Oswald', sans-serif;
@@ -170,7 +179,8 @@ p, h2, li,a, button {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-height: 50vh; 
+    min-height: 50vh;
+    max-height: 95vh;
     width: 50vw;
     padding: 6vh;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
@@ -287,13 +297,12 @@ ul{
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-align: left;
+    z-index: 2;
 }
 
 .area-popup:hover {
     opacity: 0.2;
 }
-
-
 
 .link {
     text-decoration: none;
@@ -341,53 +350,63 @@ ul{
     display: none;
   }
 
-#fourteen img{
-    display: block;
-    margin: auto;
-    min-height: 60vh;
-}
 
-#six img{
+#six img,
+#six-mk img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     min-height: 60vh;
 }
 
-#seven img{
+#fourteen img,
+#fourteen-mk img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     min-height: 60vh;
 }
 
-#two img{
+#seven img,
+#seven-mk img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 60vh;
+}
+
+#two img,
+#two-mk img{
     display: block;
     float: none;
     margin: auto;
     max-height: 40vh;
 }
 
-#eight img {
+#eight img,
+#eight-mk img{
     display: block;
     float: none;
     margin: auto;
     min-width: 40vw;
 }
 
-#four img{
+#four img,
+#four-mk img{
     display: block;
     float: none;
     margin: auto;
 }
 
-#eleven img{
+#eleven img,
+#eleven-mk img{
     display: block;
     float: none;
     margin: auto;
 }
 
-#one img{
+#one img,
+#one-mk img{
     float: none;
     margin: auto;
 }
@@ -399,19 +418,22 @@ ul{
     font-size: 0.9vw;
 }
 
-#sixteen{
+#sixteen,
+#sixteen-mk{
     display: flex;
     flex-direction: column;
 }
 
-#ying_yang_div{
+#ying_yang_div,
+#ying_yang_div-mk{
     display:table;
     text-align:center;
     margin-bottom: auto;
     position: relative;
 }
 
-#sixteen img{
+#sixteen img,
+#sixteen-mk img{
     max-width: 50vw;
     max-height: 43vh;
     display: block;
@@ -419,9 +441,39 @@ ul{
     margin: auto;
 }
 
-#sixteen h2{
+#sixteen h2,
+#sixteen-mk h2{
     font-size: 2.5vh
 }
 
+#language{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-height: 3vh;
+    margin: auto;
+    color: white;
+    padding-right: 2vw;
+}
 
+#lang-mk{
+    color: #ed4992;
+    vertical-align: top;
+    float: right;
+    cursor: pointer;
+}
+
+#lang-en{
+    color: #66dfff;
+    float: right;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.change-lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
 
