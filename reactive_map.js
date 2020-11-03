@@ -1136,9 +1136,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'eight-area-landscape') {
-            top = height * 0.02;
+            top = height * 0.01;
             left = width * 0.605;
-            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
+            var $span = $('<span style="font-size:' + height * 0.023 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1150,7 +1150,7 @@ function start_landscape(){
         if (number == 'nine-area-landscape') {
             top = height * 0;
             left = width * 0.745;
-            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
+            var $span = $('<span style="font-size:' + height * 0.0215 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1233,7 +1233,7 @@ function start_landscape(){
         }
         if (number == 'sixteen-area-landscape') {
             top = height * 0.79;
-            left = width * 0.182;
+            left = width * 0.173;
             var $span = $('<span style="font-size:' + height * 0.044 + 'px; color:' + red + '" class="area_title">FINISH LINE</span>');
             $span.css({
                 top: top + 'px',
@@ -1242,7 +1242,7 @@ function start_landscape(){
             });
             $span.appendTo('#main-landscape');
             top = height * 0.925;
-            left = width * 0.165;
+            left = width * 0.158;
             var $span = $('<span style="font-size:' + height * 0.025 + 'px;" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -1316,9 +1316,9 @@ function start_landscape(){
                 position: 'absolute'
             });
             $span.appendTo('#main-landscape');
-            top = height * 0.055;
-            left = width * 0.13;
-            var $span = $('<span style="font-size:' + height * 0.025 + 'px; text-align: right;" class="area_title">' + title + '</span>');
+            top = height * 0.06;
+            left = width * 0.2;
+            var $span = $('<span style="font-size:' + height * 0.023 + 'px; text-align: left;" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1340,8 +1340,8 @@ function start_landscape(){
 
         }
         if (number == 'two-area-landscape') {
-            top = height * 0.29;
-            left = width * 0.027;
+            top = height * 0.32;
+            left = width * 0.037;
             var $span = $('<span style="font-size:' + height * 0.023 + 'px; z-index:10;" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -1365,7 +1365,7 @@ function start_landscape(){
         }
         if (number == 'three-area-landscape') {
             top = height * 0.55;
-            left = width * 0.1;
+            left = width * 0.088;
             var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
@@ -1389,7 +1389,7 @@ function start_landscape(){
         if (number == 'four-area-landscape') {
             top = height * 0.04;
             left = width * 0.336;
-            var $span = $('<span style="font-size:' + height * 0.027 + 'px" class="area_title">' + title + '</span>');
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1399,9 +1399,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'five-area-landscape') {
-            top = height * 0.62;
+            top = height * 0.65;
             left = width * 0.255;
-            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
+            var $span = $('<span style="font-size:' + height * 0.023 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1434,9 +1434,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'seven-area-landscape') {
-            top = height * 0.16;
+            top = height * 0.17;
             left = width * 0.54;
-            var $span = $('<span style="font-size:' + height * 0.026 + 'px" class="area_title">' + title + '</span>');
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1446,9 +1446,9 @@ function start_landscape(){
             $span.appendTo('#main-landscape');
         }
         if (number == 'eight-area-landscape') {
-            top = height * 0.01;
-            left = width * 0.61;
-            var $span = $('<span style="font-size:' + height * 0.025 + 'px" class="area_title">' + title + '</span>');
+            top = height * 0;
+            left = width * 0.57;
+            var $span = $('<span style="font-size:' + height * 0.024 + 'px" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1459,8 +1459,8 @@ function start_landscape(){
         }
         if (number == 'nine-area-landscape') {
             top = height * 0;
-            left = width * 0.82;
-            var $span = $('<span style="font-size:' + height * 0.025 + 'px; text-align: right;" class="area_title">' + title + '</span>');
+            left = width * 0.735;
+            var $span = $('<span style="font-size:' + height * 0.025 + 'px; text-align: left;" class="area_title">' + title + '</span>');
 
             $span.css({
                 top: top + 'px',
@@ -1567,10 +1567,10 @@ function start_landscape(){
         var height = $(img).height();
         var width = $(img).width();
 
-        top_c = height * 0.4;
+        top_c = height * 0.27;
         left = width * 0.1;
 
-        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Родовите политики ја земаат<br> предвид отпорноста на климата.</span>');
+        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Родовите политики <br>ја земаат<br> предвид отпорноста<br> на климата.</span>');
 
         $span.css({
             top: top_c + 'px',
@@ -1582,7 +1582,7 @@ function start_landscape(){
         top_c = height * 0.2;
         left = width * 0.1;
 
-        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Климатските политики ги<br> земаат предвид родовите разлики.  </span>');
+        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Климатските политики<br> ги земаат предвид<br> родовите разлики.  </span>');
 
         $span.css({
             top: top_c + 'px',
@@ -1594,7 +1594,7 @@ function start_landscape(){
         top_c = height * 1;
         left = width * 0.4;
 
-        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Подобрените национални<br> придонеси за климата се<br> осврнуваат на родовите димензии. </span>');
+        var $span = $('<span style="font-size:' + width * 0.04 + 'px; color:black;" class="area_title">Подобрените национални<br> придонеси за климата се<br> осврнуваат на родовите<br> димензии. </span>');
 
         $span.css({
             top: top_c + 'px',
