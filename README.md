@@ -1,3 +1,3 @@
 # Infograhic Gender Map - UNDP
 
-![Infograhic](./GitImages/Infograhic.png)
+![plot](./GitImages/Infographic.png)
